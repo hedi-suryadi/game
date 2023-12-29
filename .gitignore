@@ -1,0 +1,28 @@
+# Custom
+/tests/browser/public/lib/
+
+# Eclipse files
+.project
+.settings
+.idea
+
+# Temp files
+.DS_Store
+Thumbs.db
+Desktop.ini
+npm-debug.log
+
+# Vim swap files
+*.sw*
+
+# Sublime project and workspace
+*.sublime-project
+*.sublime-workspace
+
+# Project specific ignore
+add-on/
+node_modules/
+build/*
+!.placeholder
+/_SpecRunner.html
+package-lock.json
